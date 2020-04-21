@@ -1,0 +1,32 @@
+""""Welcome to the Website Crawler Tool""""
+---------------------------------------------------------------------------------------------------------------------------------------------
+This tool works on various environments such as Windows, Linux and MacOS
+
+There are 2 tools included in this tool
+1) spider.py
+2) crawler.py
+---------------------------------------------------------------------------------------------------------------------------------------------
+spider.py
+---------------------------------------------------------------------------------------------------------------------------------------------
+The main function of this tool is that it scans the given website url for all the subdomains that are present in that url.
+
+It is very easy to use.
+After installing the tool the user has to just run the program.
+But before running the program, the user has to give the preferred website url that the user wants to run this crawler on.
+So, the user has to go into the program using nano or any other similar tool, so that he can edit the program.
+The user has to enter their preferred url to the "target_url" variable.
+
+Ex: python spider.py
+---------------------------------------------------------------------------------------------------------------------------------------------
+crawler.py
+---------------------------------------------------------------------------------------------------------------------------------------------
+The main function of this tool is that it scans the given website url for all the subdomains that are present inthe file that is hardcoded in the program.So, if the user wants to test against the wordlists that they have, they have to change the path to their file's path in the program.
+
+It is very easy to use.
+After installing the tool the user has to just run the program.
+But before running the program, the user has to give the preferred website url that the user wants to run this crawler on.
+So, the user has to go into the program using nano or any other similar tool, so that he can edit the program.
+The user has to enter their preferred url to the "target_url" variable and the file that they would want (in case required).
+
+Ex: python crawler.py
+
